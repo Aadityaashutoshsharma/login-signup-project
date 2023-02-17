@@ -1,0 +1,13 @@
+@media screen and (min-width : 280px) and (max-width: 900px) and (min-height: 667px) {
+    .container{
+        width: 90vw;
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width : 412px) and (max-width: 914px) {
+    .container{
+        min-width: 90vw;
+        height: 90vh;
+    }
+}
