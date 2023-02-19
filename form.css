@@ -38,6 +38,12 @@ h1 {
     font-weight: bolder;
     font-size: 44px;
 }
+h6 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 10px;
+}
 
 label {
     color: goldenrod;    

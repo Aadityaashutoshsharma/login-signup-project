@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Login</title>
-    
+
     <link rel="stylesheet" href="./login.css">
 </head>
+
 <body>
-    <form>
-        <h1>Log in</h1>
-    <a href="form.html">
-        <h6>Or Sign up</h6>
-        </a>
-       <label class="labelEmail">Email</label>
-       <input type="email" placeholder="eg., xyz@gmail.com">
-       <label id="password">Password</label>
-       <input type="password" placeholder="********">
-       <button class="button">Log in</button> 
-    </form>     
+    <div class="container">
+
+        <form>
+            <h1>Log in</h1>
+            <a href="form.html">
+                <h6>Or Sign up</h6>
+            </a>
+            <label class="labelEmail">Email</label>
+            <input type="email" placeholder="eg., xyz@gmail.com">
+            <label id="password">Password</label>
+            <input type="password" placeholder="********">
+        </form>
+        <button type="submit" class="button" onClick="login(email, password)">Log in</button>
+
+    </div>
+    <script src="js/login.js"></script>
 </body>
+
 </html>

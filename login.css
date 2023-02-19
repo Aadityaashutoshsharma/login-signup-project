@@ -1,53 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid cyan;
+  border-radius: 5px;
+  padding: 3%;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
 h1 {
-    text-align: center;
-    color:cyan;
-    font-size: 44px;
-    font-weight: bolder;
+  text-align: center;
+  color: cyan;
+  font-size: 44px;
+  font-weight: bolder;
 }
 h6 {
-    text-align: center;
-    color: cyan;
-    font-size: 10px;
-    font-weight: bolder;
-    margin-top: 0%;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+  margin-top: 0%;
 }
-label{
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: goldenrod;
+
+label {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: goldenrod;
 }
-input{
-    padding: 2%;
-}
+
 .labelEmail {
-    color: goldenrod;
+  color: goldenrod;
 }
+
+input {
+  padding: 2%;
+  border-radius: 3px;
+}
+
 #password {
-    color: goldenrod;
+  color: goldenrod;
 }
-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 25%;
-    border: 2px solid cyan;
-    padding: 1%;
-    font-family: sans-serif;
-}
-body {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    background-color: black;
-}
+
 .button {
-    background-color:cyan;
-    color: black;
-    font-size: 22px;
-    padding: 2%;
-    border: 2px solid cyan;
-    cursor: pointer;
-    margin-top: 10px;    
+  background-color: cyan;
+  color: black;
+  font-size: 22px;
+  padding: 2%;
+  border: 2px solid cyan;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 3px;
 }
